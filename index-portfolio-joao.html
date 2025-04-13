@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>João Torres | Desenvolvedor Web</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; margin: 0; background: #f9f9f9; color: #333; padding: 0; }
+    header { background: #2c3e50; color: white; padding: 2rem; text-align: center; }
+    header img { width: 100px; border-radius: 50%; margin-bottom: 1rem; }
+    main { max-width: 900px; margin: auto; padding: 2rem; }
+    h1, h2 { color: #2c3e50; }
+    .projetos { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2rem; }
+    .projeto { background: white; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); padding: 1rem; }
+    .projeto img { width: 100%; border-radius: 8px; }
+    .contato { margin-top: 3rem; }
+    footer { text-align: center; padding: 1rem; background: #ecf0f1; color: #555; }
+    @media (max-width: 768px) {
+      .projetos { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/8Km9tLL.png" alt="Avatar neutro" />
+    <h1>João Torres</h1>
+    <p>Desenvolvedor Web | Foco em soluções práticas e usabilidade</p>
+  </header>
+  <main>
+    <section>
+      <h2>Sobre mim</h2>
+      <p>Desenvolvedor web com formação técnica e foco em projetos práticos. Atuo com desenvolvimento de sites, sistemas e integrações. Tenho experiência com atendimento ao cliente e vendas, o que me dá uma visão voltada para entregar soluções reais para negócios locais e digitais.</p>
+    </section>
+
+    <section>
+      <h2>Projetos</h2>
+      <div class="projetos">
+        <div class="projeto">
+          <img src="https://via.placeholder.com/400x200?text=Landing+Page" alt="Landing Page Agência" />
+          <h3>Landing Page - Agência Criativa</h3>
+          <p>Site responsivo feito com HTML, CSS e JS. Ideal para agências e pequenos negócios que precisam de presença digital rápida.</p>
+          <a href="https://github.com/joaotorres/landing-page-agencia" target="_blank">Ver no GitHub</a>
+        </div>
+        <div class="projeto">
+          <img src="https://via.placeholder.com/400x200?text=CRUD+Tarefas" alt="CRUD Tarefas" />
+          <h3>CRUD de Tarefas - CodeIgniter 4</h3>
+          <p>Sistema completo com login, cadastro, edição e exclusão de tarefas. Feito com CodeIgniter 4, PHP e MySQL.</p>
+          <a href="https://github.com/joaotorres/crud-tarefas-codeigniter" target="_blank">Ver no GitHub</a>
+        </div>
+        <div class="projeto">
+          <img src="https://via.placeholder.com/400x200?text=Site+Institucional" alt="Site WordPress" />
+          <h3>Site Institucional - Floricultura</h3>
+          <p>Site fictício de uma floricultura, desenvolvido com WordPress. Páginas de serviços, contato e blog inclusos.</p>
+          <a href="https://github.com/joaotorres/site-floricultura-wp" target="_blank">Ver no GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contato">
+      <h2>Contato</h2>
+      <p>📧 joao.torres@email.com</p>
+      <p>🔗 <a href="https://github.com/joaotorres" target="_blank">github.com/joaotorres</a></p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 João Torres. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
